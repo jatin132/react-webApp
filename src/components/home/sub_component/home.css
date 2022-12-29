@@ -1,0 +1,255 @@
+@media (max-width: 769px) {
+    body{
+        font-size: calc(100% - 20%);
+    }
+}
+@media (max-width: 769px) {
+    body{
+        font-size: calc(100% - 30%);
+    }
+}
+
+/* hero section */
+.homebg{
+    background-image: url('D:\react projects\james_consulting\src\images/home-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    min-height: 100vh;
+}
+.hero_section{
+    background-color: white;
+    color: #072136;
+    position: absolute;
+    top: 400px;
+    left: 350px;
+    padding: 70px;
+}
+.book{
+    color: #072136;
+    border: 1px solid #072136;
+    background-color: white;
+    transition: all 1s;
+    padding: 20px;
+}
+.book:hover{
+    background-color: #072136;
+    color: white;
+}
+@media (max-width: 1441px) {
+    .hero_section{
+        position: absolute;
+        top: 805px;
+        left: 380px;
+        padding: 30px;
+    }
+}
+@media (max-width: 1025px) {
+    .hero_section{
+        position: absolute;
+        top: 593px;
+        left: 230px;
+        padding: 30px;
+    }
+    .developing{
+        font-size: 25px;
+    }
+    .big-heading{
+        font-size: 50px;
+    }
+    .book{
+        padding: 20px;
+    }
+}
+@media (max-width: 769px) {
+    .hero_section{
+        position: absolute;
+        top: 433px;
+        left: 150px;
+        padding: 20px;
+    }
+    .big-heading{
+        font-size: 40px;
+    }
+    .book{
+        padding: 15px;
+    }
+}
+@media (max-width: 426px) {
+    .hero_section{
+        position: absolute;
+        top: 488px;
+        left: 50px;
+        padding: 10px;
+    }
+    .developing{
+        font-size: 15px;
+    }
+    .big-heading{
+        font-size: 30px;
+    }
+    .book{
+        padding: 10px;
+    }
+}
+@media (max-width: 376px) {
+    .hero_section{
+        position: absolute;
+        top: 515px;
+        left: 70px;
+        padding: 10px;
+    }
+    .developing{
+        font-size: 10px;
+    }
+    .big-heading{
+        font-size: 20px;
+    }
+    .book{
+        padding: 5px;
+    }
+}
+@media (max-width: 321px) {
+    .hero_section{
+        position: absolute;
+        top: 520px;
+        left: 70px;
+        padding: 10px;
+    }
+    .developing{
+        font-size: 10px;
+    }
+    .big-heading{
+        font-size: 15px;
+    }
+    .book{
+        padding: 5px;
+    }
+}
+.book-link:link{
+    color: #072136;
+    transition: all 1s;
+}
+.book-link:visited{
+    color: #072136;
+}
+.book-link:hover{
+    color: white;
+    text-decoration: none;
+}
+
+/* pages link section */
+.more-things{
+    border: 1px solid black;
+    padding: 30px 30px;
+}
+.border{
+    border-right: none;
+}
+.more-info-btn{
+    color: white;
+    background-color: #0C3C60;
+    transition: all 1s;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.more-info-btn:hover{
+    background-color: white;
+    color: #0C3C60;
+    border: 1px solid #072136;
+}
+@media (max-width: 1025px) {
+    .big-heading{
+        font-size: 50px;
+    }
+}
+@media (max-width: 769px) {
+    .big-heading{
+        font-size: 40px;
+    }
+    .more-info-btn{
+        padding-left: 20px;
+        padding-right: 20px;
+        padding: 15px;
+    }
+}
+@media (max-width: 426px) {
+    .big-heading{
+        font-size: 30px;
+    }
+}
+@media (max-width: 376px) {
+    .big-heading{
+        font-size: 20px;
+    }
+}
+@media (max-width: 321px) {
+    .big-heading{
+        font-size: 15px;
+    }
+}
+.pages-link:link{
+    color: white;
+    transition: all 1s;
+}
+.pages-link:visited{
+    color: white;
+}
+.pages-link:hover{
+    color: #072136;
+    text-decoration: none;
+}
+
+/* about us section */
+.aboutus_section{
+    background-image:  linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('D:\react projects\james_consulting\src\images/mountain-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    margin-top: 100px;
+    color: #072136;
+}
+.heading{
+    margin-top: 100px;
+}
+.learnMore{
+    background-color: transparent;
+    color: #072136;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: all 1s;
+}
+.learnMore:hover{
+    background-color: #072136;
+    color: white;
+}
+.learMoreText{
+    color: #072136;
+    transition: all 1s;
+}
+.learMoreText:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* testimonials section */
+.testimonials{
+    background-color: #0C3C60;
+    color: #F7F7F7;
+}
+.slide{
+    margin-top: 100px;
+}
+.name{
+    margin-bottom: 100px;
+}
+.carousel-indicators{
+    background-color: #072136;
+    padding: 10px;
+}
+.carousel-control-prev, .carousel-control-next, .carousel-control-prev-icon, .carousel-control-next-icon{
+    color: #072136;
+}

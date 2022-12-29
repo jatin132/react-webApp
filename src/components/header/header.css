@@ -1,0 +1,16 @@
+.navbar{
+    background-color: #072136;
+}
+.btn-account{
+    background-color: #AFE0F9;
+    border-radius: 5px;
+}
+.userImage{
+    width: 30px;
+    height: 30px;
+}
+@media (max-width: 769px) {
+    .btn-account{
+        width: 150px;
+    }
+}

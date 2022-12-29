@@ -1,0 +1,21 @@
+.select_plan{
+    background-color: #072136;
+    color: white;
+    padding: 10px;
+}
+.select{
+    color: white;
+    transition: all 1s;
+}
+.select:hover{
+    text-decoration: none;
+}
+
+.plans{
+    margin-left: 60px;
+}
+@media (max-width: 769px) {
+    .plans{
+        margin-left: 0px;
+    }
+}

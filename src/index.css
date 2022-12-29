@@ -1,0 +1,14 @@
+body{
+  font-family: 'Kanit', sans-serif;
+  font-family: 'Nunito', sans-serif
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0C3C60;
+}

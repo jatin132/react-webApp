@@ -1,0 +1,63 @@
+.signup{
+    background-image: url('D:\react projects\james_consulting\src\images/singup_bg.jpg');
+    background-size: cover;
+    background-position: center; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+}
+
+/* @media (max-width: 2560px) {
+    .signup{
+        height: 100vh;;
+    }
+} */
+
+.signup_form{
+    background-color: rgba(255, 255, 255, 0.49);
+    color: #072136;
+    border-radius: 10px;
+    height: auto;
+    padding: 40px;
+    padding-bottom: 10px;
+}
+
+.signupBtn{
+    background-color: #072136;
+    color: white;
+    border: 1px solid #072136;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.signupBtn:focus{
+    background-color: white;
+    color: black;
+}
+
+.loginLink:link{
+    color: #072136;
+}
+.loginLink:visited{
+    color: #072136;
+}
+.loginLink:link{
+    text-decoration: none;
+}
+
+.signupLink:link{
+    color: #61bbe8;
+}
+.signupLink:visited{
+    color: #61bbe8;
+}
+.signupLink:link{
+    text-decoration: none;
+}
+
+input[type='text'], input[type='password'], input[type='email']{
+    background-color: transparent;
+    border: 1px solid black;
+}

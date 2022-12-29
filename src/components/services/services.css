@@ -1,0 +1,43 @@
+.book_service{
+    background-color: white;
+    border: 1px solid #072136;
+    color: #072136;
+    transition: all 1s;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.book_service:hover{
+    background-color: #072136;
+    color: white;
+}
+.bookNowText{
+    color: #072136;
+    transition: all 1s;
+}
+.bookNowText:hover {
+    text-decoration: none;
+    color: white;
+}
+.timing{
+    border: 1px solid #072136;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    color: #072136;
+    background-color: white;
+}
+.timing:focus{
+    background-color: #AFE0F9;
+}
+
+.book-now-next{
+    background-color: #072136;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.pay-form{
+    border-radius: 10px;
+}
+#form-area{
+    border: 1px solid #072136;
+}
