@@ -30,7 +30,7 @@ const Services = () => {
       img: service3,
       serviceName: "CORPORATE STRATEGY",
       time: "1 hr",
-      fees: "@150",
+      fees: "$150",
       btn: "Book Now",
     },
   ];
@@ -59,9 +59,8 @@ const Services = () => {
                         <h2 className="mt-5">{item.serviceName} </h2>
                         <h6 className="">{item.time} </h6>
                         <h6 className="">{item.fees} </h6>
-                        <button className="mt-5 book_service" onClick={() => {<BookNow />}}>
-                            {item.btn}
-                            {/* <BookNow/> */}
+                        <button className="mt-5 book_service">
+                          <NavLink to="/services/book-now" className="bookNowText text-white"> Book Now </NavLink>
                         </button>
                       </div>
                     </Price.Provider>

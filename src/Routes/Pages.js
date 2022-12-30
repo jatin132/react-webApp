@@ -32,7 +32,7 @@ const Pages = () => {
           {/* <Account /> */}
           <Route path="/sign-up" element={<SignUp />} />
           <Route path="/login" element={<Login />} />
-          <Route path="services//book-now/fill-form" element={<FillForm />} />
+          <Route path="/services/book-now/fill-form" element={<FillForm />} />
           <Route
             path="/services/book-now/fill-form/pay-now"
             element={<PayNow />}

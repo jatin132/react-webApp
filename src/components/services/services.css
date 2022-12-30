@@ -1,15 +1,11 @@
 .book_service{
-    background-color: white;
+    background-color: #072136;
     border: 1px solid #072136;
     color: #072136;
     transition: all 1s;
     padding: 10px;
     padding-left: 20px;
     padding-right: 20px;
-}
-.book_service:hover{
-    background-color: #072136;
-    color: white;
 }
 .bookNowText{
     color: #072136;

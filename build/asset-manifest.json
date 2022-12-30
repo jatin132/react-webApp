@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-webApp/static/css/main.3b425028.css",
+    "main.js": "/react-webApp/static/js/main.809446ba.js",
+    "static/media/singup_bg.jpg": "/react-webApp/static/media/singup_bg.74481b42e8a28cc4890c.jpg",
+    "static/media/home-bg.jpg": "/react-webApp/static/media/home-bg.ce937317810ef63c88aa.jpg",
+    "static/media/mountain-bg.jpg": "/react-webApp/static/media/mountain-bg.f8df7cf5f439c2de56db.jpg",
+    "static/media/about.webp": "/react-webApp/static/media/about.10e9ff67971eb0264824.webp",
+    "static/media/project-4.webp": "/react-webApp/static/media/project-4.a6ecbb851c303a0b5898.webp",
+    "static/media/service-2.webp": "/react-webApp/static/media/service-2.c49df4599dce8446263d.webp",
+    "static/media/project-1.webp": "/react-webApp/static/media/project-1.0ec3d5be3cf5e6505f7d.webp",
+    "static/media/team-2.webp": "/react-webApp/static/media/team-2.30ccce375ee5a31fd8c3.webp",
+    "static/media/service-3.webp": "/react-webApp/static/media/service-3.1b5478d1396645054b7c.webp",
+    "static/media/service-1.webp": "/react-webApp/static/media/service-1.ea57fbcd3aa6f32dc23c.webp",
+    "static/media/project-3.webp": "/react-webApp/static/media/project-3.156f0c3f6784c9db05c4.webp",
+    "static/media/team-3.webp": "/react-webApp/static/media/team-3.ec4ae6141dbf64f11134.webp",
+    "static/media/team-4.webp": "/react-webApp/static/media/team-4.a09f8d1072ec3e8cadf0.webp",
+    "static/media/team-1.webp": "/react-webApp/static/media/team-1.e379d937965ba296e96c.webp",
+    "static/media/project-2.webp": "/react-webApp/static/media/project-2.fe46f12809da65d73c97.webp",
+    "index.html": "/react-webApp/index.html",
+    "main.3b425028.css.map": "/react-webApp/static/css/main.3b425028.css.map",
+    "main.809446ba.js.map": "/react-webApp/static/js/main.809446ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b425028.css",
+    "static/js/main.809446ba.js"
+  ]
+}

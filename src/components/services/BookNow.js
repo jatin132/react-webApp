@@ -87,7 +87,10 @@ const BookNow = () => {
         <div className="col-lg-4 col-md-6 p- mb-3">
         <big className=""> Booking Summary </big> <hr/>
         <h6> {serviceName} </h6>
+        <p> 
         {date.toLocaleDateString()}
+        <span> 10:00 am </span>
+        </p>
         <p> Terry A Francois Boulevard </p>
         <p> KIM BAILEY </p>
         <p> {time} </p>
